@@ -59,11 +59,11 @@ header a:hover {color: #ccc;}
 header a:focus {color: #ccc;}
 header a:active {color: #ccc;}
 
-body a:link {color: #402132;}
-body a:visited {color: #402132;}
-body a:hover {color: #CCD2E3;}
-body a:focus {color: #402132;}
-body a:active {color: #402132;}
+a:link {color: #402132;}
+a:visited {color: #402132;}
+a:hover {color: #ccc;}
+a:focus {color: #402132;}
+a:active {color: #402132;}
 
 table {
 	width: 100%;
@@ -86,3 +86,4 @@ tbody tr {
 tbody tr:nth-child(even) {
 	background-color: #fff;
 }
+
