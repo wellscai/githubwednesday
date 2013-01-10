@@ -53,6 +53,11 @@ nav li {
 	display: inline;
 }
 
+footer ul {
+	list-style: none;
+	display: inline;
+}
+
 header a:link {color: #ccc;}
 header a:visited {color: #ccc;}
 header a:hover {color: #ccc;}

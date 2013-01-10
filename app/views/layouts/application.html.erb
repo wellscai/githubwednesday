@@ -10,17 +10,23 @@
 	<header>
 		<h1>Caitlin's DHWI Application</h1>
 		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/topics/new">Create topic</a></li>
-				<li><a href="/about.html">About</a></li>
-			</ul>	
+  			<ul>
+    			<li><%= link_to 'Home', root_path %></li>
+    			<li><%= link_to 'Add a Topic', new_topic_path %></li>
+    			<li><%= link_to 'About', pages_about_path %></li>
+  			</ul>
 		</nav>
 	</header>	
 <% flash.each do |name, msg| %>
 	<div><%= msg %></div>
 <% end %>
 <%= yield %>
-
+	<footer>
+			<p>Created by Caitlin Wells</p>
+			<p>Email: caitlin.r.wells@gmail.com</p>
+				<ul>
+					<li><%= link_to image_tag('twitter.png'), "http://www.twitter.com/wellscai" %></li>
+				</ul>
+	</footer>
 </body>
 </html>
