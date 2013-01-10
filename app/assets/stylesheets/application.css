@@ -13,49 +13,57 @@
  */
 
 html{
-	background-color: #000;
-	border-top: 10px solid #0f0;
+	border-top: 10px solid #888C97;
+	background-image: url(knitted-yarn-002004-charcoal.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 body {
 	width: 70%;
-	margin: 0 auto;
-	background-color: #fff;
+	margin: 20px auto;
+	background-color: #767676;
 	padding: 20px 40px;
 	border: 1px solid #ccc;
-	font-family: Helvetica;
+	font-family: Noticia, serif;
+	color: #402132;
 }
 header {
-	background-color: #333;
-	color: #fff;
+	color: #ccc;
 	padding: 20px;
-	border: 2px solid #0f0;
+	background-color: #234F59;
 }
 
 header h1 {
-	color: #c6f;
-	font-style: italic;
+	color: #ccc;
+	font-style: bold;
 	font-size: 200%;
+	text-align: center;
 }
 
 nav ul {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
+	text-align: center;
+	color: #ccc;
 }
 
 nav li {
 	display: inline;
 }
 
-header a:link {color: #fff;}
-header a:visited {color: #fff;}
-header a:hover {color: #0f0; font-family: Wingdings, Helvetica;}
-header a:focus {color: #fff;}
-header a:active {color: #fff;}
+header a:link {color: #ccc;}
+header a:visited {color: #ccc;}
+header a:hover {color: #ccc;}
+header a:focus {color: #ccc;}
+header a:active {color: #ccc;}
 
-
-body a:hover {color: #0f0;}
+body a:link {color: #402132;}
+body a:visited {color: #402132;}
+body a:hover {color: #CCD2E3;}
+body a:focus {color: #402132;}
+body a:active {color: #402132;}
 
 table {
 	width: 100%;
