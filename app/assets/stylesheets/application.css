@@ -39,7 +39,7 @@ header h1 {
 	font-style: none;
 	font-size: 300%;
 	text-align: center;
-	font-family: verdana;
+	font-family: Noticia, serif;
 }
 
 nav ul {
@@ -56,6 +56,8 @@ nav li {
 
 footer ul {
 	list-style: none;
+}
+footer li {
 	display: inline;
 }
 
