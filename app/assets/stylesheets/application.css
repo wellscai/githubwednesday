@@ -22,7 +22,7 @@ html{
 body {
 	width: 70%;
 	margin: 20px auto;
-	background-color: #767676;
+	background-color: #dddddd;
 	padding: 20px 40px;
 	border: 1px solid #ccc;
 	font-family: Noticia, serif;
@@ -36,9 +36,10 @@ header {
 
 header h1 {
 	color: #ccc;
-	font-style: bold;
-	font-size: 200%;
+	font-style: none;
+	font-size: 300%;
 	text-align: center;
+	font-family: verdana;
 }
 
 nav ul {
